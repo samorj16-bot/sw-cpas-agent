@@ -3,10 +3,27 @@
   "name": "kr.co.sw-cpas/mcp",
   "title": "SW CPAs",
   "description": "Korean CPA office (CA CPA·KICPA): US incorporation finder, services, articles, consultations.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://sw-cpas.co.kr/developers/",
-  "repository": { "url": "https://github.com/samorj16-bot/sw-cpas-agent", "source": "github" },
+  "repository": {
+    "url": "https://github.com/samorj16-bot/sw-cpas-agent",
+    "source": "github"
+  },
   "remotes": [
-    { "type": "streamable-http", "url": "https://sw-cpas.co.kr/mcp" }
+    {
+      "type": "streamable-http",
+      "url": "https://sw-cpas.co.kr/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "sw-cpas-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
   ]
 }
