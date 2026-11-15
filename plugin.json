@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "sw-cpas",
+  "version": "1.0.0",
+  "description": "SW CPAs (에스더블유 공인회계사 사무소): US expansion accounting and tax for Korean companies. MCP servers and an agent skill for firm facts, services, Korean US-tax articles, the free US incorporation finder and consultation requests.",
+  "author": { "name": "SW CPAs (에스더블유 공인회계사 사무소)", "email": "swyoun@sw-cpas.com", "url": "https://sw-cpas.co.kr/" },
+  "homepage": "https://sw-cpas.co.kr/developers/",
+  "repository": "https://github.com/samorj16-bot/sw-cpas-agent",
+  "license": "MIT",
+  "keywords": ["mcp", "accounting", "tax", "korea", "united-states", "incorporation", "cpa"]
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "sw-cpas": { "type": "streamable-http", "url": "https://sw-cpas.co.kr/mcp" },
+    "sw-cpas-docs": { "type": "streamable-http", "url": "https://sw-cpas.co.kr/mcp/docs" }
+  }
+}
