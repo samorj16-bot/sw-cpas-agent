@@ -4,7 +4,7 @@
   "description": "Official CLI and MCP server (stdio) for SW CPAs (에스더블유 공인회계사 사무소, sw-cpas.co.kr): firm facts, US expansion services for Korean companies, Korean US-tax articles, the free US incorporation finder and consultation requests.",
   "mcpName": "kr.co.sw-cpas/mcp",
   "homepage": "https://sw-cpas.co.kr/developers/",
-  "repository": { "type": "git", "url": "https://github.com/samorj16-bot/sw-cpas-agent.git" },
+  "repository": { "type": "git", "url": "https://github.com/sw-cpas/sw-cpas-agent.git" },
   "license": "MIT",
   "type": "module",
   "bin": { "sw-cpas-mcp": "bin/sw-cpas-mcp.js", "sw-cpas": "bin/sw-cpas-mcp.js" },
